@@ -1,7 +1,5 @@
 body {
-    background-image: url("/images/background-pattern-green-6.jpg");
 
-    background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -9,12 +7,17 @@ body {
 }
 
 .container {
-    max-width: 50vw;
+    background-image: url("/images/background-pattern-green-6.jpg");
+    background-size: cover;
+    max-width: 40vw;
+    padding: 50px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 h1 {
@@ -36,6 +39,7 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
+    margin-top: 10px;
     border-radius: 5px;
     border: 1px solid black;
 }
@@ -46,4 +50,5 @@ button {
 
 #save-btn {
     background: red;
+    margin-top: 20px;
 }
